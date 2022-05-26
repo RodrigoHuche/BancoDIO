@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a7bc734-a5e0-4b64-aadf-3635590ecfb9" name="Changes" comment="Desenvolvendo saque, deposito, transferencia e extrato.">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="9a7bc734-a5e0-4b64-aadf-3635590ecfb9" name="Changes" comment="transferencia contrato com Iconta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BancoDIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BancoDIO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iconta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iconta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653569141557</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="transferencia contrato com Iconta">
+      <created>1653569460666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653569460666</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +133,7 @@
     <MESSAGE value="Herança + contratos" />
     <MESSAGE value="Polimorfismo + encapsulamento com herança" />
     <MESSAGE value="Desenvolvendo saque, deposito, transferencia e extrato." />
-    <option name="LAST_COMMIT_MESSAGE" value="Desenvolvendo saque, deposito, transferencia e extrato." />
+    <MESSAGE value="transferencia contrato com Iconta" />
+    <option name="LAST_COMMIT_MESSAGE" value="transferencia contrato com Iconta" />
   </component>
 </project>
