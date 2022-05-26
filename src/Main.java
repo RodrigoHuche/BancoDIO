@@ -1,9 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        Iconta cc = new ContaCorrente();
+
+        Cliente rodrigo = new Cliente();
+        rodrigo.setNome("Rodrigo Huche");
+
+        Iconta cc = new ContaCorrente(rodrigo);
         cc.depositar(100);
 
-        Iconta poupanca = new ContaPoupanca();
+        Iconta poupanca = new ContaPoupanca(rodrigo);
         //poupanca.depositar(500);
         cc.transferir(90, poupanca);
 
