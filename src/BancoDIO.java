@@ -1,5 +1,9 @@
+import java.util.List;
+
 public class BancoDIO {
+
     private String nome;
+    private List<Conta> contas;
 
     public String getNome() {
         return nome;
@@ -8,6 +12,17 @@ public class BancoDIO {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+
+    public List<Conta> getContas() {
+        return contas;
+    }
+
+    public void setContas(List<Conta> contas) {
+        this.contas = contas;
+    }
+
+
 
 }
 

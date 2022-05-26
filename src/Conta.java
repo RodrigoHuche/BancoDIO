@@ -7,10 +7,12 @@ public abstract class Conta implements Iconta {
     protected int agencia;
     protected int numero;
     protected double saldo;
+    protected Cliente cliente;
 
-    public Conta() {
+    public Conta(Cliente cliente) {
         this.agencia = Conta.AGENCIA_PADRAO;
         this.numero = Sequencial++;
+        this.cliente = cliente;
     }
 
     @Override
