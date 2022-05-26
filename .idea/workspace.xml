@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a7bc734-a5e0-4b64-aadf-3635590ecfb9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BancoDIO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BancoDIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContaPoupanca.java" afterDir="false" />
+    <list default="true" id="9a7bc734-a5e0-4b64-aadf-3635590ecfb9" name="Changes" comment="Refinamento + new Client Rodrigo">
+      <change beforePath="$PROJECT_DIR$/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +13,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -37,15 +35,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BancoDIO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,6 +71,70 @@
       <option name="presentableId" value="Default" />
       <updated>1653512106953</updated>
     </task>
+    <task id="LOCAL-00001" summary="Abstração">
+      <created>1653513423781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653513423781</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Encapsulamento + get/set">
+      <created>1653514950132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653514950132</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Herança + contratos">
+      <created>1653517620487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653517620487</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Polimorfismo + encapsulamento com herança">
+      <created>1653531855342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653531855342</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Desenvolvendo saque, deposito, transferencia e extrato.">
+      <created>1653569141557</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653569141557</updated>
+    </task>
+    <task id="LOCAL-00006" summary="transferencia contrato com Iconta">
+      <created>1653569460666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653569460666</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Iconta no Main">
+      <created>1653569842111</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653569842111</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Iconta no Main redirecionamentos">
+      <created>1653571370986</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653571370986</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refinamento + new Client Rodrigo">
+      <created>1653577185160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653577185160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,5 +147,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Abstração" />
+    <MESSAGE value="Encapsulamento + get/set" />
+    <MESSAGE value="Herança + contratos" />
+    <MESSAGE value="Polimorfismo + encapsulamento com herança" />
+    <MESSAGE value="Desenvolvendo saque, deposito, transferencia e extrato." />
+    <MESSAGE value="transferencia contrato com Iconta" />
+    <MESSAGE value="Iconta no Main" />
+    <MESSAGE value="Iconta no Main redirecionamentos" />
+    <MESSAGE value="Refinamento + new Client Rodrigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refinamento + new Client Rodrigo" />
   </component>
 </project>
