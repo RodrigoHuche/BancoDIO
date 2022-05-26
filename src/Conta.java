@@ -24,7 +24,7 @@ public abstract class Conta implements Iconta {
     }
 
     @Override
-    public void transferir(double valor, Conta contaDestino) {
+    public void transferir(double valor, Iconta contaDestino) {
         this.sacar(valor);
         contaDestino.depositar(valor);
 
